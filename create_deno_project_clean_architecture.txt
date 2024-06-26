@@ -1,0 +1,58 @@
+deno init .
+cd .\deno_finanace\
+workspace;
+ cd experiments/
+mkdir deno_finanace| cd;
+ ni README.md;
+ ni CHANGELOG.md;
+ ni deps.ts;
+ mkdir docs;
+ mkdir config;
+ mkdir scripts;
+ mkdir src | cd;
+ mkdir applicatiion;
+ mkdir domain;
+ mkdir infrastructure;
+ mkdir presentation;
+ mkdir shared;
+ cd ..
+ls
+ls .\src\
+ls
+mkdir tests;
+ mv .\main_test.ts tests/
+cd ..
+mkdir .\src\applicatiion\dtos
+mkdir .\src\applicatiion\errors
+mkdir .\src\applicatiion\interfaces
+mkdir .\src\applicatiion\use_cases
+mkdir .\src\domain\builders
+mkdir .\src\domain\entities
+mkdir .\src\infrastructure\configurations;
+ mkdir .\src\infrastructure\context;
+ mkdir .\src\infrastructure\persistence;
+ mkdir .\src\infrastructure\persistence\repositories;
+ mkdir .\src\infrastructure\services;
+ ni .\src\infrastructure\index.ts;
+
+mkdir .\src\presentation\web;
+ mkdir .\src\presentation\cli;
+ mkdir .\src\presentation\api;
+ mkdir .\src\presentation\workers;
+ mkdir .\src\presentation\errors;
+ mkdir .\src\presentation\serializers\;
+ mkdir .\src\presentation\common;
+ mkdir .\src\presentation\builders;
+
+mkdir .\src\shared\logging;
+ mkdir .\src\shared\utils;
+ ni .\src\shared\utils\id.generator.ts;
+ ni .\src\shared\utils\date.utils.ts;
+ ni .\src\shared\logging\logger.ts
+ni .\src\applicatiion\index.ts
+ni .\src\domain\index.ts
+ni .\src\shared\index.ts
+mkdir .\src\applicatiion\common
+ni .\src\applicatiion\common\index.ts
+mv .\main.ts .\src\
+mv .\main.ts .\src\
